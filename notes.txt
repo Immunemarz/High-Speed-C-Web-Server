@@ -1,0 +1,56 @@
+#include <iostream>
+#include <regex>
+
+int main() {
+    string url = "https://orangeexhibit-sonataspain-8000.codio.io/list";
+    
+    // Regular expression to match everything after the last '/'
+    regex reg("([^/]+)$");
+    smatch match;
+
+    if (regex_search(url, match, reg)) {
+        if (match.size() > 1) {
+            cout << "Extracted: " << match.str(1) << endl;
+        }
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+//example from chatgpt that puts books with authors.
+if(theMatch == "list")
+		{
+				ifstream inputFile("books.txt");
+
+				if (!inputFile.is_open()) {
+					cerr << "ERROR OPENING DA FILE" << endl;
+					return 1;
+				}
+				
+				    std::string line;
+    while (std::getline(inputFile, line)) {
+        std::stringstream ss(line);
+        std::string item;
+        std::vector<std::string> tokens;
+
+        while (std::getline(ss, item, ',')) {
+            tokens.push_back(item);
+        }
+
+        if (tokens.size() == 4) {
+            std::cout << "{\n";
+            std::cout << "    \"ID\": " << tokens[0] << ",\n";
+            std::cout << "    \"author\": \"" << tokens[1] << "\",\n";
+            std::cout << "    \"genre\": \"" << tokens[2] << "\",\n";
+            std::cout << "    \"message\": \"" << tokens[3] << "\"\n";
+            std::cout << "}\n\n";
+					}
+
+					inputFile.close();
+		}
+		}

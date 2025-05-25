@@ -1,0 +1,26 @@
+ the buffer is:::::: GET /favicon.ico HTTP/1.1
+Host: orangeexhibit-sonataspain-8000.codio.io
+X-Codio-Host: orangeexhibit-sonataspain.codio.io
+Connection: upgrade
+X-Forwarded-For: 204.144.15.30
+X-Forwarded-Proto: https
+X-Forwarded-Port: 443
+X-Amzn-Trace-Id: Root=1-65452a8f-76006215537152051b384ac9
+sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+sec-ch-ua-mobile: ?0
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+referer: https://orangeexhibit-sonataspain-8000.codio.io/list
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,sv;q=0.8
+cookie: dynamic_preview_session=7f849631-4a9b-46c4-a03b-10a1fa05e700; AWSALB=0tSAbxOIZ1tdDXXl+NKuTWuuWpBwhtr/m65sLhYXfRgifjic10TURkt2k+ccUBQU8ESxjfBxiGqwvW0mdqbo0Z1ndKTBdd9KAKUiRcCR5uqAX9T+tUZHNgkJVViw; AWSALBCORS=0tSAbxOIZ1tdDXXl+NKuTWuuWpBwhtr/m65sLhYXfRgifjic10TURkt2k+ccUBQU8ESxjfBxiGqwvW0mdqbo0Z1ndKTBdd9KAKUiRcCR5uqAX9T+tUZHNgkJVViw
+
+WmNDHfm0MiTEcvo/ty4pmd0Bp7+ZF2izuLMV8Qj14njRRGXeRZbMTaWc5paRV/3VhE3aY1
+
+n
+
+
